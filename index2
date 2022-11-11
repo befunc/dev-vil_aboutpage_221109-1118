@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Menu</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="tab-container">
+        <li class="tab-container__item active" data-tab="tab1">
+          <a class="tab-container__item--title" href="#">이보형</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab2">
+          <a class="tab-container__item--title" href="#">최원빈</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab3">
+          <a class="tab-container__item--title" href="#">우태현</a>
+        </li>
+        <li class="tab-container__item" data-tab="tab4">
+          <a class="tab-container__item--title" href="#">전수빈</a>
+        </li>
+      </ul>
+      <section class="content-container">
+        <article id="tab1" class="content-container__content target">
+          <h1>???</h1>
+          <p>
+            스파르타쨩!
+          </p>
+        </article>
+        <article id="tab2" class="content-container__content">
+          <h1>Tab2</h1>
+          <p>
+            스파르타쨩쨩맨
+          </p>
+        </article>
+        <article id="tab3" class="content-container__content">
+          <h1>Tab3</h1>
+          <p>
+            스파르타쨩쨩쨩쨩맨
+          </p>
+        </article>
+        <article id="tab4" class="content-container__content">
+          <h1>Tab4</h1>
+          <p>
+            스파르타쨩쨩쨩쨩쨩쨩쨩쨩쨩쨩쨩쨩쨩맨
+          </p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
